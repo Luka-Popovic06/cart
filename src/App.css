@@ -82,3 +82,72 @@
   color: #fff;
   background-color: #3c3799;
 }
+/*List*/
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 50px;
+  border-bottom: 2px solid #b9c2cf;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list-item-minibox {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.info-box {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 5px;
+}
+.mobile-img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+}
+.phone-name {
+  font-size: 21px;
+  font-weight: 550;
+  color: #334155;
+}
+.phone-price-p {
+  color: #64748b;
+}
+.remove-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #645cff;
+  width: 50px;
+  transition: 0.3s;
+}
+.remove-btn:hover {
+  transition: 0.3s;
+  color: #4b45b7;
+}
+.list-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-2 {
+  width: 23px;
+  height: 23px;
+  color: #645cff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.icon-2:hover {
+  transition: 0.3s;
+  color: #4b45b7;
+}
+.phones-number {
+  font-size: 20px;
+  font-family: sans-serif;
+}
