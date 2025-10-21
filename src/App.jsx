@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { mobilesInfo } from "./info.js";
+import Mobile from "./Mobile";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [mobiles, setMobiles] = useState(mobilesInfo);
 
   return (
     <>
@@ -22,9 +23,13 @@ function App() {
         </div>
       </header>
       <main className="container">
-        <h1>YOUR BAG</h1>
-        <ul className="list"></ul>
-        <div>
+        <h1 className="main-title">YOUR BAG</h1>
+        <ul className="list">
+          {mobiles.map((mobile) => {
+            return <Mobile key={mobile.id} {...mobile} />;
+          })}
+        </ul>
+        <div className="total-box">
           <p className="p-total">Total</p>
           <p className="total-price">
             $<span>27090</span>
