@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { mobilesInfo } from "./info.js";
 import "./App.css";
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
   return (
     <>
       <header className="header">
-        <h1>UseReducer</h1>
+        <h1 className="title">UseReducer</h1>
         <div className="products-box">
           <svg
             className="icon-1"

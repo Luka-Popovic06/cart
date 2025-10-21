@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 const Mobile = () => {
+  const [price, setPrice] = useState(0);
   return (
     <li className="list-item">
       <img src="" alt="" />
@@ -15,7 +16,7 @@ const Mobile = () => {
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           fill="currentColor"
-          className="icon-number"
+          className="icon-2"
         >
           <path
             fill-rule="evenodd"
