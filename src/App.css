@@ -39,3 +39,46 @@
   font-size: 22px;
   border-radius: 50%;
 }
+/*main*/
+.container {
+  margin-top: 70px;
+  width: 55%;
+  text-align: center;
+}
+.total-box {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.p-total {
+  font-size: 20px;
+}
+.total-price {
+  background-color: #645cff;
+  font-size: 20px;
+  padding: 3px 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+.main-title {
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.clear-btn {
+  color: #645cff;
+  background-color: #c1beff;
+  border: none;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.clear-btn:hover {
+  transition: 0.5s;
+  color: #fff;
+  background-color: #3c3799;
+}
