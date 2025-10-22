@@ -151,3 +151,11 @@
   font-size: 20px;
   font-family: sans-serif;
 }
+.empty-notification {
+  font-size: 30px;
+  color: #64748b;
+}
+.icon-btn {
+  background-color: transparent;
+  border: none;
+}
